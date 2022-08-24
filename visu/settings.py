@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure--qfa(-j$bkfxa8*$a7v43w*#n=p7az9@cdf8%-e#^)q=#k-hpw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['visu-text-analyzer.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','visu-text-analyzer.herokuapp.com'] 
+# 'visu-text-analyzer.herokuapp.com'
 
 
 # Application definition
@@ -121,7 +122,7 @@ USE_TZ = True
 STATICFILES_DIRS= [
     'static'
 ]
-STATIC_ROOT = os.path.join [BASE_DIR, 'static']
+# STATIC_ROOT = os.path.join [BASE_DIR, 'static']
 STATIC_URL = 'static/'
 
 # Default primary key field type
