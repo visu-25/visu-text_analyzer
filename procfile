@@ -1,1 +1,1 @@
-web: gunicorn visu-text-analyzer.wsgi --log-file -
+web: gunicorn visu.wsgi

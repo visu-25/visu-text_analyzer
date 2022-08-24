@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure--qfa(-j$bkfxa8*$a7v43w*#n=p7az9@cdf8%-e#^)q=#k-hpw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','visu-text-analyzer.herokuapp.com'] 
 # 'visu-text-analyzer.herokuapp.com'
