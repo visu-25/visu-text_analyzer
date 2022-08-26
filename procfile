@@ -1,1 +1,1 @@
-web: gunicorn visu.wsgi
+web: gunicorn visu.wsgi --log-file -
