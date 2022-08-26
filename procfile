@@ -1,1 +1,1 @@
-web: waitress-serve --port=8080 visu.wsgi:application
+web: waitress-serve --port=$PORT visu.wsgi:application
