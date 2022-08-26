@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-
+from django import django_heroku
 import os
 from pathlib import Path
 
@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--qfa(-j$bkfxa8*$a7v43w*#n=p7az9@cdf8%-e#^)q=#k-hpw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["visu-text-analyzer.herokuapp.com","localhost","*"] 
+ALLOWED_HOSTS = ["*","visu-text-analyzer.herokuapp.com","localhost"] 
 # 'visu-text-analyzer.herokuapp.com'
 
 
@@ -129,3 +129,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATIC_ROOT = BASE_DIR / 'static'
 
 STATIC_URL = 'static/'
+django_heroku.settings(locals())
