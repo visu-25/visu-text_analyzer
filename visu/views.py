@@ -10,12 +10,12 @@ def home(request):
     return render(request,'index.html')
 
 def analyze(request):
-    dj=request.POST.get('text','default')
+    dj=request.GET.get('text','default')
     
-    removepunc = request.POST.get('removepunc','off')
-    allcaps = request.POST.get('allcaps','off')
-    new_line_remover = request.POST.get('new_line_remover','off')
-    spaceremover = request.POST.get('spaceremover','off')
+    removepunc = request.GET.get('removepunc','off')
+    allcaps = request.GET.get('allcaps','off')
+    new_line_remover = request.GET.get('new_line_remover','off')
+    spaceremover = request.GET.get('spaceremover','off')
 
     
     if removepunc == "on":

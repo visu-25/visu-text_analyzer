@@ -50,7 +50,7 @@
           </div>
           <div class="container">
             
-            <form action="/analyze" method="post">{% csrf_token %}
+            <form action="/analyze" method="get">{% csrf_token %}
               <div class="mb-3">
                 <label for="text" class="form-label">Enter your Text here.... </label>
                 <textarea name="text"class="form-control" id="text" rows="5"></textarea>
