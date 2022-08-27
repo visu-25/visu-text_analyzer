@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--qfa(-j$bkfxa8*$a7v43w*#n=p7az9@cdf8%-e#^)q=#k-hpw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["visu-text-analyzer.herokuapp.com","127.0.0.1:8000","49.34.132.151:8000"] 
+ALLOWED_HOSTS = ["visu-text-analyzer.herokuapp.com","*"] 
 # 'visu-text-analyzer.herokuapp.com'
 
 
