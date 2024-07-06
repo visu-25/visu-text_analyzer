@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--qfa(-j$bkfxa8*$a7v43w*#n=p7az9@cdf8%-e#^)q=#k-hpw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["visu-text-analyzer.herokuapp.com","*"] 
+ALLOWED_HOSTS = ["visu-text-analyzer.herokuapp.com","*", ".vercel.app"]
 # 'visu-text-analyzer.herokuapp.com'
 
 
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'visu.wsgi.application'
+WSGI_APPLICATION = 'api.wsgi.application'
 
 
 # Database
